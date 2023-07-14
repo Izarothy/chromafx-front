@@ -2,6 +2,7 @@ import { type AppType } from "next/app";
 import { api } from "~/utils/api";
 import "~/styles/globals.css";
 import { Montserrat } from "next/font/google";
+import Layout from "~/components/Layout/Layout";
 
 const montserrat = Montserrat({
   weight: ["400", "500", "600", "700", "800"],
@@ -20,7 +21,9 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           }
         `}
       </style>
-      <Component {...pageProps} />;
+      <Layout>
+        <Component {...pageProps} />;
+      </Layout>
     </>
   );
 };
