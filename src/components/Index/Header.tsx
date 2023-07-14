@@ -22,7 +22,7 @@ const Header = ({ setIsEmailModalOpen }: Props) => {
               onClick={() => {
                 setIsEmailModalOpen(true);
               }}
-              className="mt-4 block rounded-full bg-purple-600 px-6 py-2 font-semibold text-white md:mx-0"
+              className="mt-4 block rounded-full bg-purple-600 px-6 py-3 font-semibold text-white md:mx-0"
             >
               Contact us
             </button>
