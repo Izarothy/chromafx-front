@@ -8,9 +8,9 @@ type Props = {
 const EmailModal = ({ setIsEmailModalOpen, isEmailModalOpen }: Props) => {
   return (
     <div
-      className={`left-1/2 top-1/2 w-4/5 -translate-x-1/2 -translate-y-1/2 gap-2 px-4 md:w-1/2 xl:w-1/3 ${
+      className={`left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 gap-2 px-4 ${
         isEmailModalOpen
-          ? `absolute flex flex-col  rounded-lg bg-purple-600`
+          ? `absolute flex flex-col rounded-lg bg-purple-600`
           : `hidden`
       }`}
     >
