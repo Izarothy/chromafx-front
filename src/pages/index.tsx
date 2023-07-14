@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center">
         ChromaFX
+        <Image alt="test" src={"/finance.svg"} width={580} height={580} />
       </main>
     </>
   );
