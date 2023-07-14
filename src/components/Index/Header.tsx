@@ -7,7 +7,7 @@ const Header = () => {
       <aside className="flex h-full flex-col items-center px-8 md:mt-32 md:px-0">
         <div className="">
           <h1 className="text-6xl font-bold md:text-7xl">Join us today</h1>
-          <h3 className="mt-4 max-w-xl font-medium text-gray-400">
+          <h3 className="mt-4 max-w-xl font-medium text-gray-500">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
             explicabo aliquam veniam voluptates illum atque tempora labore
             dolore asperiores quos unde delectus facere quisquam vel aperiam
