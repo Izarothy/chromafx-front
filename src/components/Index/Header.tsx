@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className="mt-32 flex min-w-full grow flex-col justify-between gap-12 md:flex-row">
-      <aside className="mx-auto flex h-full flex-col items-center pl-16 md:mt-32 md:w-1/2">
+      <aside className="flex h-full flex-col items-center md:mt-32">
         <div className="">
           <h1 className="text-6xl font-bold md:text-7xl">Join us today</h1>
           <h3 className="mt-4 max-w-xl font-medium text-gray-400">
@@ -21,12 +21,13 @@ const Header = () => {
           </span>
         </div>
       </aside>
-      <aside className="relative h-[50vh] w-full overflow-hidden md:h-auto md:w-1/2">
+      <aside className="relative h-[50vh] w-1/2 shrink-0 grow overflow-hidden md:h-auto">
         <Image
-          className=" object-contain"
+          className="object-contain"
           alt="test"
           src={"/finance.jpg"}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw"
         />
       </aside>
     </header>
