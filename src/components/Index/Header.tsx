@@ -10,12 +10,12 @@ const Header = ({ setIsEmailModalOpen }: Props) => {
       <aside className="flex h-full flex-col items-center px-8 md:mt-32 md:px-0">
         <div className="">
           <h1 className="text-6xl font-bold md:text-7xl">Join us today</h1>
-          <h3 className="mt-4 max-w-xl font-medium text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-            explicabo aliquam veniam voluptates illum atque tempora labore
-            dolore asperiores quos unde delectus facere quisquam vel aperiam
-            nesciunt totam, necessitatibus optio eaque ex ipsa reprehenderit
-            libero quam corrupti. Et, pariatur tempore.
+          <h3 className="mt-4 max-w-xl font-medium leading-6 text-gray-400">
+            Empowering businesses through tailored strategies, cutting-edge
+            technologies, and unparalleled industry knowledge. We collaborate
+            closely with clients to drive efficiency, foster innovation, and
+            achieve remarkable results. Unlock your organization&apos;s full
+            potential with our comprehensive range of consulting services.
           </h3>
           <span>
             <button
