@@ -31,7 +31,7 @@ const Header = ({ setIsEmailModalOpen }: Props) => {
       </aside>
       <aside className="relative h-[50vh] shrink-0 grow overflow-hidden md:h-auto md:w-1/2">
         <Image
-          className="object-contain"
+          className="animate-slidein object-contain"
           alt="test"
           src={"/finance.jpg"}
           fill
