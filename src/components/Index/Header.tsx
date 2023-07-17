@@ -9,13 +9,15 @@ const Header = ({ setIsEmailModalOpen }: Props) => {
     <header className="mt-32 flex min-w-full grow flex-col justify-between gap-12 md:flex-row">
       <aside className="flex h-full flex-col items-center px-8 md:mt-32 md:px-0">
         <div className="">
-          <h1 className="text-6xl font-bold md:text-7xl">Join us today</h1>
-          <h3 className="mt-4 max-w-xl font-medium leading-6 text-gray-400">
-            Empowering businesses through tailored strategies, cutting-edge
-            technologies, and unparalleled industry knowledge. We collaborate
-            closely with clients to drive efficiency, foster innovation, and
-            achieve remarkable results. Unlock your organization&apos;s full
-            potential with our comprehensive range of consulting services.
+          <h1 className="text-6xl font-bold md:text-7xl">
+            Unleashing Potential Together
+          </h1>
+          <h3 className="mt-4 max-w-xl font-medium leading-6 text-[#999999]">
+            Elevate your business with our expertise in impactful website
+            creation, grant guidance for SMEs, and optimized distribution
+            channels. Enhance your online presence, secure funding, and
+            streamline operations with our comprehensive consulting services.
+            Let us unlock your business&apos;s full potential.
           </h3>
           <span>
             <button
