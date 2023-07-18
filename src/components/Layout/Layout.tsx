@@ -6,7 +6,7 @@ type Props = {
 };
 const Layout = ({ children }: Props) => {
   return (
-    <div className="md:px-24 xl:px-48">
+    <div>
       <NavBar />
       {children}
     </div>

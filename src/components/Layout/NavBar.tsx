@@ -4,7 +4,7 @@ import NavBarLink from "./NavBarLink";
 
 const NavBar = () => {
   return (
-    <nav className=" sticky top-0 flex w-full justify-between bg-white px-2 py-4 font-semibold md:px-0">
+    <nav className=" sticky top-0 z-10 flex w-full justify-between bg-white py-4 font-semibold md:px-24 xl:px-48">
       <span className="text-3xl font-extrabold text-[#000080] ">
         <Link href="/">ChromaFX</Link>
       </span>

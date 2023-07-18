@@ -6,7 +6,7 @@ type Props = {
 };
 const Header = ({ setIsEmailModalOpen }: Props) => {
   return (
-    <header className="mt-32 flex min-w-full grow flex-col justify-between gap-12 md:flex-row">
+    <header className="mt-32 flex min-w-full grow flex-col justify-between gap-12 md:flex-row md:px-24 xl:px-48">
       <aside className="flex h-full flex-col items-center px-8 md:mt-32 md:px-0">
         <div className="">
           <h1 className="text-6xl font-bold md:text-7xl">
