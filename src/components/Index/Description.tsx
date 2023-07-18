@@ -5,7 +5,7 @@ import SourceReference from "../Global/SourceReference";
 const Description = () => {
   return (
     <section className="flex w-full flex-col justify-between gap-16 bg-purple-600 px-6 py-4 lg:flex-row lg:px-24 lg:py-32 xl:px-48">
-      <aside className="flex-1 text-white">
+      <aside className="flex flex-1 flex-col justify-center text-white">
         <h2 className="mb-4 text-center text-3xl font-bold lg:text-left  xl:text-4xl">
           Why?
         </h2>
