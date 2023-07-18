@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import Description from "~/components/Index/Description";
 import EmailModal from "~/components/Index/EmailModal";
 import Header from "~/components/Index/Header";
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
           setIsEmailModalOpen={setIsEmailModalOpen}
           isEmailModalOpen={isEmailModalOpen}
         />
+        <Description />
       </>
     </>
   );
