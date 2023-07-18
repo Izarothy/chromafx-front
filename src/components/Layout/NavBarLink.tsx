@@ -7,7 +7,7 @@ type Props = {
 };
 const NavBarLink = ({ name, href }: Props) => {
   return (
-    <Link href={href}>
+    <Link href={href} scroll={false}>
       <span className="hover:text-purple-600">{name}</span>
     </Link>
   );

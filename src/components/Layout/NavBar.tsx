@@ -10,9 +10,7 @@ const NavBar = () => {
       </span>
       <span className="hidden justify-end gap-8 text-lg md:flex">
         <NavBarLink name="Home" href="/" />
-        <NavBarLink name="About us" href="/" />
-        <NavBarLink name="Pricing" href="/" />
-        <NavBarLink name="Contact" href="/" />
+        <NavBarLink name="Description" href="#desc" />
       </span>
     </nav>
   );
