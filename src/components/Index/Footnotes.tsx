@@ -7,7 +7,7 @@ type Props = {
 
 const Footnotes = ({ footnoteList }: Props) => {
   return (
-    <section className="my-8 md:px-24 xl:px-48">
+    <section className="my-16 px-6 md:px-24 xl:px-48">
       <h2 className="mb-3 text-xl font-semibold">Footnotes</h2>
       <ol className="list-decimal px-4">
         {footnoteList.map(({ count, link, description }) => {
