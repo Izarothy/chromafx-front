@@ -3,11 +3,11 @@ import HoverSource from "./HoverSource";
 
 type Props = {
   count: number;
-  linkTitle: string;
+  description: string;
   link: string;
 };
 
-const SourceReference = ({ count, link, linkTitle }: Props) => {
+const SourceReference = ({ count, link, description }: Props) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <>
@@ -17,10 +17,14 @@ const SourceReference = ({ count, link, linkTitle }: Props) => {
           setIsHovered(true);
         }}
       >
-        [{count}]{" "}
+        <a href={`#${String(count)}`}>[{count}] </a>
       </sup>
       {isHovered ? (
-        <HoverSource text={linkTitle} link={link} setIsHovered={setIsHovered} />
+        <HoverSource
+          text={description}
+          link={link}
+          setIsHovered={setIsHovered}
+        />
       ) : (
         <></>
       )}

@@ -2,7 +2,10 @@ import Head from "next/head";
 import { useState } from "react";
 import Description from "~/components/Index/Description";
 import EmailModal from "~/components/Index/EmailModal";
+import Footnotes from "~/components/Index/Footnotes";
 import Header from "~/components/Index/Header";
+
+import sources from "~/data/sources.json";
 export default function Home() {
   const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
   return (
@@ -33,6 +36,7 @@ export default function Home() {
           isEmailModalOpen={isEmailModalOpen}
         />
         <Description />
+        <Footnotes footnoteList={sources} />
       </>
     </>
   );

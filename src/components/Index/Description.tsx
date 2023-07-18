@@ -20,7 +20,7 @@ const Description = () => {
           <SourceReference
             count={1}
             link="https://clutch.co/accounting/resources/hiring-a-consultant"
-            linkTitle="Hiring a Consultant: 5 Types of Consulting for Small Businesses"
+            description="Hiring a Consultant: 5 Types of Consulting for Small Businesses"
           />
           Don&apos;t be left behind. Embrace our consulting services and empower
           your business to soar to new heights. We are here to fuel your
