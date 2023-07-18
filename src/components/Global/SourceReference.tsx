@@ -17,7 +17,7 @@ const SourceReference = ({ count, link, linkTitle }: Props) => {
           setIsHovered(true);
         }}
       >
-        [{count}]
+        [{count}]{" "}
       </sup>
       {isHovered ? (
         <HoverSource text={linkTitle} link={link} setIsHovered={setIsHovered} />
