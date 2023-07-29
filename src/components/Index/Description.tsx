@@ -37,7 +37,7 @@ const Description = () => {
         <Image
           src={description}
           alt="Description"
-          className="mx-auto rounded-lg object-contain"
+          className="mx-auto rounded-sm object-contain"
         />
       </aside>
     </section>
