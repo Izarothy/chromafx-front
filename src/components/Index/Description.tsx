@@ -6,13 +6,13 @@ const Description = () => {
   return (
     <section
       id="desc"
-      className="flex w-full flex-col justify-between gap-16 bg-purple-600 px-6 py-4 lg:flex-row lg:px-24 lg:py-32 xl:px-48"
+      className="flex w-full flex-col justify-between gap-16 bg-black px-6 py-4 lg:flex-row lg:px-24 lg:py-32 xl:px-48"
     >
-      <aside className="flex flex-1 flex-col justify-center text-white">
-        <h2 className="mb-4 text-center text-3xl font-bold lg:text-left  xl:text-4xl">
+      <aside className="flex flex-1 flex-col justify-center ">
+        <h2 className="mb-4 text-center text-3xl font-bold text-white lg:text-left xl:text-4xl">
           Why?
         </h2>
-        <p className="max-w-2xl">
+        <p className="max-w-2xl text-gray-300">
           In today&apos;s competitive business landscape, it&apos;s surprising
           how many businesses overlook the immense potential of optimizing their
           online presence, securing funding through grants, and streamlining
