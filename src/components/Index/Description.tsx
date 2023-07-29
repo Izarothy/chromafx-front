@@ -6,7 +6,7 @@ const Description = () => {
   return (
     <section
       id="desc"
-      className="flex w-full flex-col justify-between gap-16 bg-black px-6 py-4 lg:flex-row lg:px-24 lg:py-32 xl:px-48"
+      className="flex w-full flex-col items-center justify-between gap-16 bg-black px-6 py-4 sm:flex-row lg:px-24 lg:py-32 xl:px-48"
     >
       <aside className="flex flex-1 flex-col justify-center ">
         <h2 className="mb-4 text-center text-3xl font-bold text-white lg:text-left xl:text-4xl">
@@ -16,10 +16,11 @@ const Description = () => {
           In today&apos;s competitive business landscape, it&apos;s surprising
           how many businesses overlook the immense potential of optimizing their
           online presence, securing funding through grants, and streamlining
-          their distribution channels. By tapping into these opportunities, you
-          gain a distinct competitive edge that sets you apart from the rest. A
-          staggering 44% of small businesses in the UK have already recognized
-          the value of hiring a consultant to navigate these crucial aspects.{" "}
+          their distribution channels. <br />
+          By tapping into these opportunities, you gain a distinct competitive
+          edge that sets you apart from the rest. A staggering 44% of small
+          businesses in the UK have already recognized the value of hiring a
+          consultant to navigate these crucial aspects.{" "}
           <SourceReference
             count={1}
             link="https://clutch.co/accounting/resources/hiring-a-consultant"
