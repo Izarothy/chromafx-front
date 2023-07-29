@@ -12,7 +12,7 @@ const Header = ({ setIsEmailModalOpen }: Props) => {
           <h1 className="text-6xl font-bold md:text-7xl">
             Unleashing Potential Together
           </h1>
-          <h3 className="mt-4 max-w-xl font-medium leading-6 text-[#999999]">
+          <h3 className="mt-4 max-w-xl font-medium leading-6 text-gray-500">
             Elevate your business with our expertise in impactful website
             creation, grant guidance for SMEs, and optimized distribution
             channels. Enhance your online presence, secure funding, and
